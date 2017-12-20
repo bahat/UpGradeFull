@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="NavBar.master.cs" Inherits="NavBar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../CSS/SideNavBar.css" rel="stylesheet" />
+    <link href="../CSS/DropdownUserRight.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="SideNavBar">
+                <input type="checkbox" id="toggle">
+                <div>
+                    <label for="toggle" id="littleWeirdSign">&#9776;</label>
+                    <ul id="ulside">
+                        <li class="liElements"><a href="#" class="ulLinks">Class Events</a></li>
+                        <li class="liElements"><a href="#" class="ulLinks">Time Table</a></li>
+                        <li class="liElements"><a href="#" class="ulLinks">Grades</a></li>
+                        <li class="liElements"><a href="#" class="ulLinks">PhoneBook</a></li>
+                        <li class="liElements"><a href="#" class="ulLinks">Messages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="topRightDropdownMenu">
+                <a runat="server" id="WelcomeRight" href="#" class="dropbtn">Welcome, </a>
+                <div class="dropdown-content">
+                <a href="#">Account Settings</a>
+                <a href="~/Login.aspx" runat="server" onClick="SignOut" id="signoutlink">Sign Out</a>
+                </div>
+                
+
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+</body>
+</html>

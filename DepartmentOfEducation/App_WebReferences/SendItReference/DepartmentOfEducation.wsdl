@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SendIt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendItResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendItResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendItSoapIn">
+    <wsdl:part name="parameters" element="tns:SendIt" />
+  </wsdl:message>
+  <wsdl:message name="SendItSoapOut">
+    <wsdl:part name="parameters" element="tns:SendItResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DepartmentOfEducationSoap">
+    <wsdl:operation name="SendIt">
+      <wsdl:input message="tns:SendItSoapIn" />
+      <wsdl:output message="tns:SendItSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DepartmentOfEducationSoap" type="tns:DepartmentOfEducationSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendIt">
+      <soap:operation soapAction="http://tempuri.org/SendIt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DepartmentOfEducationSoap12" type="tns:DepartmentOfEducationSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendIt">
+      <soap12:operation soapAction="http://tempuri.org/SendIt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DepartmentOfEducation">
+    <wsdl:port name="DepartmentOfEducationSoap" binding="tns:DepartmentOfEducationSoap">
+      <soap:address location="http://localhost:51145/DepartmentOfEducation.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DepartmentOfEducationSoap12" binding="tns:DepartmentOfEducationSoap12">
+      <soap12:address location="http://localhost:51145/DepartmentOfEducation.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

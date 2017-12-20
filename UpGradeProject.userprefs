@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{6B3A9E21-BDEB-4E3F-8097-3EE0587025FD}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UpGrade/Login.aspx.cs">
+    <Files>
+      <File FileName="UpGrade/Hello.aspx" Line="13" Column="9" />
+      <File FileName="UpGrade/Home.aspx" Line="1" Column="1" />
+      <File FileName="UpGrade/Login.aspx" Line="1" Column="1" />
+      <File FileName="UpGrade/Login.aspx.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.UpGrade PreferredExecutionTarget="MonoDevelop.Default" />
+  <DisabledProjects>
+    <String>MessageSystem/</String>
+    <String>UpGrade/</String>
+    <String>DepartmentOfEducation/</String>
+  </DisabledProjects>
+</Properties>

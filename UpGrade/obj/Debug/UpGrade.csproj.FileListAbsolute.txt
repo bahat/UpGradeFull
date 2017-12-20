@@ -1,0 +1,5 @@
+/Users/omer/Documents/GitHub/UpGradeProject/UpGrade/bin/UpGrade.dll
+/Users/omer/Documents/GitHub/UpGradeProject/UpGrade/bin/UpGrade.pdb
+/Users/omer/Documents/GitHub/UpGradeProject/UpGrade/obj/Debug/UpGrade.csproj.CoreCompileInputs.cache
+/Users/omer/Documents/GitHub/UpGradeProject/UpGrade/obj/Debug/UpGrade.dll
+/Users/omer/Documents/GitHub/UpGradeProject/UpGrade/obj/Debug/UpGrade.pdb

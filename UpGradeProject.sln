@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DepartmentOfEducation", "DepartmentOfEducation\", "{FE8B70ED-1249-478A-BC0A-0098ACF1D0B5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51145"
+		Debug.AspNetCompiler.PhysicalPath = "DepartmentOfEducation\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51145\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51145"
+		Release.AspNetCompiler.PhysicalPath = "DepartmentOfEducation\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51145\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51145"
+		SlnRelativePath = "DepartmentOfEducation\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UpGrade", "UpGrade\", "{83E50299-691C-4F46-9CE9-9B6EA0BC8F75}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51153"
+		Debug.AspNetCompiler.PhysicalPath = "UpGrade\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51153\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51153"
+		Release.AspNetCompiler.PhysicalPath = "UpGrade\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51153\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51153"
+		SlnRelativePath = "UpGrade\"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{FE8B70ED-1249-478A-BC0A-0098ACF1D0B5} = {FE8B70ED-1249-478A-BC0A-0098ACF1D0B5}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MessageSystem", "MessageSystem\", "{A36D5745-3D8E-4F83-A19A-0D7291D468ED}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52919"
+		Debug.AspNetCompiler.PhysicalPath = "MessageSystem\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52919\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52919"
+		Release.AspNetCompiler.PhysicalPath = "MessageSystem\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52919\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52919"
+		SlnRelativePath = "MessageSystem\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE8B70ED-1249-478A-BC0A-0098ACF1D0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8B70ED-1249-478A-BC0A-0098ACF1D0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E50299-691C-4F46-9CE9-9B6EA0BC8F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E50299-691C-4F46-9CE9-9B6EA0BC8F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36D5745-3D8E-4F83-A19A-0D7291D468ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36D5745-3D8E-4F83-A19A-0D7291D468ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3F3E47E-1F4A-46F6-B848-0C45C2F06A19}
+	EndGlobalSection
+EndGlobal
